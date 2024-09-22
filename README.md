@@ -6,12 +6,12 @@
 
 ### String Validation Example:
 
-![String Validation Example]()
+![String Validation Example](https://github.com/LbnvAI/java-project-78/blob/main/screenshots/stringvalidation.jpg)
 
 ### Integer Validation Example:
 
-![Integer Validation Example]()
+![Integer Validation Example](https://github.com/LbnvAI/java-project-78/blob/main/screenshots/integervalidation.jpg)
 
 ### Map Validation Example:
 
-![Map Validation Example]()
+![Map Validation Example](https://github.com/LbnvAI/java-project-78/blob/main/screenshots/mapvalidation.jpg)
