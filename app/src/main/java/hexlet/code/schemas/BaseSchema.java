@@ -4,10 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
 
-public class BaseSchema <T> {
+public class BaseSchema<T> {
     protected Map<String, Predicate<T>> checkMap = new HashMap<>();
 
     public final boolean isValid(T item) {
+        if (checkMap.isEmpty()) {
+            return true;
+        }
         return checkMap.values().stream().allMatch(v -> v.test(item));
     }
 }

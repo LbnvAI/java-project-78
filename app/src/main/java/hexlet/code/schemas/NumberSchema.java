@@ -21,7 +21,7 @@ public final class NumberSchema extends BaseSchema<Integer> {
     }
 
     public NumberSchema range(int begin, int end) {
-        this.checkMap.put("range", item -> item >= begin && item <= end);
+        this.checkMap.put("range", item -> !Objects.isNull(item) && item >= begin && item <= end);
         return this;
     }
 }
