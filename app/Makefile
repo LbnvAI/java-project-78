@@ -1,7 +1,7 @@
 .PHONY:build
 
 build:
-	./gradlew clean installDist
+	./gradlew clean build
 
 test:
 	./gradlew test
