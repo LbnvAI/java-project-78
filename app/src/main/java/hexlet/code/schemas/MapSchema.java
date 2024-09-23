@@ -24,7 +24,6 @@ public final class MapSchema extends BaseSchema<Map<?, ?>> {
         this.checkMap.put("shape", item ->
                 schemas.entrySet().stream().allMatch(entry ->
                         entry.getValue().isValid((T) item.get(entry.getKey()))));
-        //schemas.get(entry.getKey()).isValid((T) entry.getValue())));
         return this;
     }
 }
